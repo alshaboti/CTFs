@@ -1,6 +1,18 @@
 This is x64 bits, so the registers name are different `ebp` now is `rbp` and the `esp` is `rsp`, and ofcourse the address 
 size is 16bits. 
 
+```
+$file vuln && checksec vuln
+vuln: setgid ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/l, for GNU/Linux 3.2.0, BuildID[sha1]=e23bfe0b85a0d6c535131ca42d2565187b179fa1, not stripped
+[*] '/problems/newoverflow-1_5_bd04c7682164df72135e036dd527b668/vuln'
+    Arch:     amd64-64-little
+    RELRO:    Partial RELRO
+    Stack:    No canary found
+    NX:       NX enabled
+    PIE:      No PIE (0x400000)
+```
+
+
 It is the same as [OverFlow1](https://github.com/alshaboti/CTFs/blob/master/picoCTF2019/OverFlow1.MD), where we need to 
 control the `rip` to jump to `flag` function. 
 
