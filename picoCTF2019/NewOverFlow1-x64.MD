@@ -1,5 +1,5 @@
 This is x64 bits, so the registers name are different `ebp` now is `rbp` and the `esp` is `rsp`, and ofcourse the address 
-size is 16bits. 
+size is 64bits. 
 
 ```
 $file vuln && checksec vuln
