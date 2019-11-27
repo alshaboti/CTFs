@@ -7,3 +7,4 @@ Collection of CTF challenges only the tricky ones are listed here.
 - [GTFOBins](https://gtfobins.github.io/) is a curated list of Unix binaries that can be exploited by an 
 attacker to bypass local security restrictions.]
 - [CTF101](https://ctf101.org/): An entry level for CTF with excellent explanation of the basics.
+- [CTF-Wiki](https://ctf-wiki.github.io/ctf-wiki/index-en/): introduces range of common security flaws with examples.
