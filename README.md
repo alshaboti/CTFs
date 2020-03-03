@@ -8,3 +8,5 @@ Collection of CTF challenges only the tricky ones are listed here.
 attacker to bypass local security restrictions.]
 - [CTF101](https://ctf101.org/): An entry level for CTF with excellent explanation of the basics.
 - [CTF-Wiki](https://ctf-wiki.github.io/ctf-wiki/index-en/): introduces range of common security flaws with examples.
+- [Network Forensics Training](https://www.netresec.com/?page=PcapFiles)
+
