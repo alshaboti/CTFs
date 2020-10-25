@@ -11,7 +11,7 @@ attacker to bypass local security restrictions.]
 - [Network Forensics Training](https://www.netresec.com/?page=PcapFiles), [Traffic analysis tutorials](https://www.malware-traffic-analysis.net) 
 
 # Security training:
-- [hacksplaining[(https://www.hacksplaining.com/) : Web application vulnerabilities illustrations. 
+- [hacksplaining](https://www.hacksplaining.com/) : Web application vulnerabilities illustrations. 
 - [Splunk free fundamental course](https://www.splunk.com/en_us/training/free-courses/splunk-fundamentals-1.html)
 - [Burp suite online web security training](https://portswigger.net/web-security)
 - [MITRE ATT&CK training](https://caldera.readthedocs.io/en/latest/Plugin-library.html#training).
